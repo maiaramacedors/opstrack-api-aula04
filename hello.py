@@ -11,3 +11,23 @@ def status():
     return {
         "status": "online"
     }
+
+@app.route("/tickets")
+def tickets():
+    return [
+        {
+            "id": 1,
+            "titulo": "Computador não liga",
+            "status": "aberto"
+        },
+        {
+            "id": 2,
+            "titulo": "Erro no sistema",
+            "status": "em andamento"
+        },
+        {
+            "id": 3,
+            "titulo": "Solicitação de acesso",
+            "status": "fechado"
+        }
+    ]git status
