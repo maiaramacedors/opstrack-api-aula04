@@ -30,4 +30,12 @@ def tickets():
             "titulo": "Solicitação de acesso",
             "status": "fechado"
         }
-    ]git status
+    
+    @app.route("/sobre")
+def sobre():
+    return {
+        "nome": "OpsTrack API",
+        "versao": "1.0.0"
+    }
+
+    
