@@ -6,3 +6,8 @@ app = Flask(__name__)
 def hello_world():
     return "Hello World 1"
 
+@app.route("/status")
+def status():
+    return {
+        "status": "online"
+    }
