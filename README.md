@@ -186,7 +186,7 @@ Commits utilizados no projeto:
 - refactor: alteração na estrutura do código sem modificar a funcionalidade
 
 ## Regra de commits
-
+teste
 Cada commit deve representar uma única mudança lógica.
 
 Não devem ser misturadas diferentes alterações no mesmo commit.
